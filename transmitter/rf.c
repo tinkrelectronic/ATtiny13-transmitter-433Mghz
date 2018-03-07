@@ -31,8 +31,8 @@ const short nLowPulses_1 = (nPulseLength * 1);
 const short nLowPulses_sync =  (nPulseLength * 31);
 uint8_t readButton(void);
 
-#define PIN_TX		(1<<PB3) // PB3 pin, goes to transmitter data pin
-#define SWITCH  PB4
+#define PIN_TX		(1<<PB3) // PB3 pin, goes to transmitter data pin (pin 2)
+#define SWITCH  PB4 //Switch input pin PB4 (pin 3)
 
 void send(char* sCodeWord){
 
