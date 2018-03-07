@@ -17,7 +17,7 @@ To compile C++ file
 
 3.) avr-objcopy -j .text -j .data -O ihex rf.elf rf.hex
 
-note: ATTINY15A set fuses to L=0X69 H=0xFF
+note: ATTINY13A set fuses to L=0X69 H=0xFF
 
 Pin 2 TX
 Pin 3 Switch input (switch pulls pin to ground)
