@@ -20,7 +20,7 @@ To compile C++ file
 note: ATTINY13A set fuses to L=0X69 H=0xFF
 
 Pin 2 TX
-Pin 3 Switch input (switch pulls pin to ground)
+Pin 1 Reset switch to ground will wake up and transmit (low power)
 
 For receiver see RCSwitch examples
 https://github.com/sui77/rc-switch
